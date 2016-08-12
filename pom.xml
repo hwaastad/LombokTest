@@ -37,12 +37,25 @@
                 </dependency>
             </dependencies>
         </profile>
+        <profile>
+            <id>16.10</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.projectlombok</groupId>
+                    <artifactId>lombok</artifactId>
+                    <version>1.16.10</version>
+                </dependency>
+            </dependencies>
+        </profile>
     </profiles>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.10</version>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
